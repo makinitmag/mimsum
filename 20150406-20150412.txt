@@ -1,0 +1,30 @@
+#[20150406] IT Summary PM
+#LOG
+-Updated Registration module
+-Export Member's Directory as Features based module rather than with VIews and Ctools., test on dev failed.
+-Installing makinitmag_display_suite custom module by Torrey (fix missing view modes)
+-Investigation: Unable to allocate memory for pool error
+-Updating to dev version of DS module, applying change in DB
+-SITE DOWN 5:10pmCST > TICKET SENT (35909)
+-Moving code/db/files to STAGING. Same error repeats. ??
+#NOTES
+-Raised VPS mysql configuration to allocate more memory; torrey's environment was crashing when creating feature (specialy with devel module enabled) (ONGOING)
+used drush to export feature to bypass VPS issue and disabled devel and views_ui modules
+-It is apparent that we need to watch our footprint. With very little, the site experiences memory issues.
+#[20150409] IT summary AM
+#LOG
+[Embeding Media into content types]
+- Checking media module config
+- Checking WYSIWYG config
+- Updated to media-7.x-2.x-dev
+- Enabled Media WYSIWYG modules
+- Updating to Media 2x Alpha4
+
+[Site update]
+- updated module Commerce Shipping
+
+#Notes:
+
+- Need to update File Entity
+http://sroy.makinitmag.com/?q=admin/config/media/wysiwyg-view-mode
+- STAGING is copy of LIVE as of (2pm EST)
