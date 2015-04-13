@@ -1,0 +1,54 @@
+  GNU Wget 1.14 built on linux-gnu.
+  
+  +digest +https +ipv6 +iri +large-file +nls +ntlm +opie +ssl/openssl
+  
+  Wgetrc:
+      /etc/wgetrc (system)
+  Locale: /usr/share/locale
+  Compile: gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC="/etc/wgetrc"
+      -DLOCALEDIR="/usr/share/locale" -I. -I../../src -I../lib
+      -I../../lib -D_FORTIFY_SOURCE=2 -Iyes/include -g -O2
+      -fstack-protector --param=ssp-buffer-size=4 -Wformat
+      -Werror=format-security -DNO_SSLv2 -D_FILE_OFFSET_BITS=64 -g -Wall
+  Link: gcc -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat
+      -Werror=format-security -DNO_SSLv2 -D_FILE_OFFSET_BITS=64 -g -Wall
+      -Wl,-Bsymbolic-functions -Wl,-z,relro -Lyes/lib -lssl -lcrypto -lz
+      -ldl -lz -lz -lidn -luuid ftp-opie.o openssl.o http-ntlm.o
+      ../lib/libgnu.a
+  
+  Copyright (C) 2011 Free Software Foundation, Inc.
+  License GPLv3+: GNU GPL version 3 or later
+  <http://www.gnu.org/licenses/gpl.html>.
+  This is free software: you are free to change and redistribute it.
+  There is NO WARRANTY, to the extent permitted by law.
+  
+  Originally written by Hrvoje Niksic <hniksic@xemacs.org>.
+  Please send bug reports and questions to <bug-wget@gnu.org>.
+  module_filter/
+  module_filter/module_filter.install
+  module_filter/README.txt
+  module_filter/js/
+  module_filter/js/modules.js
+  module_filter/js/module_filter.js
+  module_filter/js/permissions.js
+  module_filter/js/module_filter_tab.js
+  module_filter/js/update_status.js
+  module_filter/js/dynamic_position.js
+  module_filter/module_filter.theme.inc
+  module_filter/module_filter.admin.inc
+  module_filter/module_filter.module
+  module_filter/module_filter.info
+  module_filter/LICENSE.txt
+  module_filter/css/
+  module_filter/css/module_filter_tab-rtl.css
+  module_filter/css/module_filter_tab.css
+  module_filter/css/modules.css
+  module_filter/css/dynamic_position.css
+  module_filter/css/module_filter.css
+  module_filter/css/update_status.css
+  module_filter/module_filter.pages.inc
+  module_filter/CHANGELOG.txt
+  sh: 1: svn: not found
+  sh: 1: bzr: not found
+The following extensions will be enabled: module_filter
+Do you really want to continue? (y/n): 
