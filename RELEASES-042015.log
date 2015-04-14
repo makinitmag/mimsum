@@ -1,0 +1,4 @@
+#RELEASE INFO 14-Apr-2015 01:44 PM
+- Changing from TinyMCE to CKEditor 4 (better intergration with Drupal)
+- This release includes a merge from Pantheon.
+- Modules disabled and uninstalled: user badges and user default pictures

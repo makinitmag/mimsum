@@ -1,54 +1,546 @@
-  GNU Wget 1.14 built on linux-gnu.
-  
-  +digest +https +ipv6 +iri +large-file +nls +ntlm +opie +ssl/openssl
-  
-  Wgetrc:
-      /etc/wgetrc (system)
-  Locale: /usr/share/locale
-  Compile: gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC="/etc/wgetrc"
-      -DLOCALEDIR="/usr/share/locale" -I. -I../../src -I../lib
-      -I../../lib -D_FORTIFY_SOURCE=2 -Iyes/include -g -O2
-      -fstack-protector --param=ssp-buffer-size=4 -Wformat
-      -Werror=format-security -DNO_SSLv2 -D_FILE_OFFSET_BITS=64 -g -Wall
-  Link: gcc -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat
-      -Werror=format-security -DNO_SSLv2 -D_FILE_OFFSET_BITS=64 -g -Wall
-      -Wl,-Bsymbolic-functions -Wl,-z,relro -Lyes/lib -lssl -lcrypto -lz
-      -ldl -lz -lz -lidn -luuid ftp-opie.o openssl.o http-ntlm.o
-      ../lib/libgnu.a
-  
-  Copyright (C) 2011 Free Software Foundation, Inc.
-  License GPLv3+: GNU GPL version 3 or later
-  <http://www.gnu.org/licenses/gpl.html>.
-  This is free software: you are free to change and redistribute it.
-  There is NO WARRANTY, to the extent permitted by law.
-  
-  Originally written by Hrvoje Niksic <hniksic@xemacs.org>.
-  Please send bug reports and questions to <bug-wget@gnu.org>.
-  module_filter/
-  module_filter/module_filter.install
-  module_filter/README.txt
-  module_filter/js/
-  module_filter/js/modules.js
-  module_filter/js/module_filter.js
-  module_filter/js/permissions.js
-  module_filter/js/module_filter_tab.js
-  module_filter/js/update_status.js
-  module_filter/js/dynamic_position.js
-  module_filter/module_filter.theme.inc
-  module_filter/module_filter.admin.inc
-  module_filter/module_filter.module
-  module_filter/module_filter.info
-  module_filter/LICENSE.txt
-  module_filter/css/
-  module_filter/css/module_filter_tab-rtl.css
-  module_filter/css/module_filter_tab.css
-  module_filter/css/modules.css
-  module_filter/css/dynamic_position.css
-  module_filter/css/module_filter.css
-  module_filter/css/update_status.css
-  module_filter/module_filter.pages.inc
-  module_filter/CHANGELOG.txt
-  sh: 1: svn: not found
-  sh: 1: bzr: not found
-The following extensions will be enabled: module_filter
-Do you really want to continue? (y/n): 
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   sites/all/modules/makingitmag_display_suite/makingitmag_display_suite.info
+#	modified:   sites/all/modules/makinitmag/makinitmag.info
+#	deleted:    sites/all/modules/user_badges/LICENSE.txt
+#	deleted:    sites/all/modules/user_badges/README.txt
+#	deleted:    sites/all/modules/user_badges/includes/views/user_badges.views.inc
+#	deleted:    sites/all/modules/user_badges/includes/views/views_handler_field_user_badges_badges_badge.inc
+#	deleted:    sites/all/modules/user_badges/includes/views/views_handler_field_user_badges_user_uid.inc
+#	deleted:    sites/all/modules/user_badges/includes/views/views_handler_filter_user_badges_user_type.inc
+#	deleted:    sites/all/modules/user_badges/user_badges.actions.inc
+#	deleted:    sites/all/modules/user_badges/user_badges.admin.inc
+#	deleted:    sites/all/modules/user_badges/user_badges.api.php
+#	deleted:    sites/all/modules/user_badges/user_badges.autoassignrole.inc
+#	deleted:    sites/all/modules/user_badges/user_badges.info
+#	deleted:    sites/all/modules/user_badges/user_badges.install
+#	deleted:    sites/all/modules/user_badges/user_badges.module
+#	deleted:    sites/all/modules/user_badges/user_badges.rules.inc
+#	deleted:    sites/all/modules/user_badges/user_badges.tokens.inc
+#	deleted:    sites/all/modules/user_picture_default/LICENSE.txt
+#	deleted:    sites/all/modules/user_picture_default/README.txt
+#	deleted:    sites/all/modules/user_picture_default/user_picture_default.info
+#	deleted:    sites/all/modules/user_picture_default/user_picture_default.install
+#	deleted:    sites/all/modules/user_picture_default/user_picture_default.module
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	sites/all/modules/mim_block_post_updates/
+no changes added to commit (use "git add" and/or "git commit -a")
+The following extensions will be disabled: wysiwyg, wysiwyg_linebreaks
+Do you really want to continue? (y/n): wysiwyg was disabled successfully.                                                       [1;32;40m[1m[ok][0m
+wysiwyg_linebreaks was disabled successfully.                                            [1;32;40m[1m[ok][0m
+Checking available update data ...                                                       [1;32;40m[1m[ok][0m
+Failed to check available update data for blog_post.                                     [1;32;40m[1m[ok][0m
+Failed to check available update data for King of the Mix.                               [1;32;40m[1m[ok][0m
+Failed to check available update data for Makingitmag Display Suite.                     [1;32;40m[1m[ok][0m
+Failed to check available update data for Makinitmag.                                    [1;32;40m[1m[ok][0m
+Failed to check available update data for MIM Press Update.                              [1;32;40m[1m[ok][0m
+Failed to check available update data for opportunity.                                   [1;32;40m[1m[ok][0m
+Failed to check available update data for Programs &amp; Services.                       [1;32;40m[1m[ok][0m
+Failed to check available update data for Purchase Form.                                 [1;32;40m[1m[ok][0m
+Failed to get available update data for 8 projects.                                      [31;40m[1m[error][0m
+Update information last refreshed: Tue, 04/14/2015 - 1:10pm
+
+Update status information on all installed and enabled Drupal projects:
+ Name                          Install  Propose  Status                                             
+                               ed       d                                                           
+                               version  version                                                     
+ Address Field (addressfield)  7.x-1.0  7.x-1.0  Up to date                                         
+ Administration menu           7.x-3.0  7.x-3.0  Up to date                                         
+ (admin_menu)                  -rc5     -rc5                                                        
+ Better Formats                7.x-1.0  7.x-1.0  Up to date                                         
+ (better_formats)              -beta1   -beta1                                                      
+ Drupal                        7.36     7.36     Up to date                                         
+ Charts (charts)               7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Node clone (node_clone)       7.x-1.0  7.x-1.0  Up to date                                         
+                               -rc2     -rc2                                                        
+ Commerce (commerce)           7.x-1.1  7.x-1.1  Up to date                                         
+                               1        1                                                           
+ Commerce Backoffice           7.x-1.4  7.x-1.4  Up to date                                         
+ (commerce_backoffice)                                                                              
+ Commerce Discount             7.x-1.0  7.x-1.0  Up to date                                         
+ (commerce_discount)           -alpha4  -alpha4                                                     
+ Commerce Google Analytics     7.x-1.1  7.x-1.1  Up to date                                         
+ (commerce_google_analytics)                                                                        
+ Commerce License              7.x-1.3  7.x-1.3  Up to date                                         
+ (commerce_license)                                                                                 
+ PayPal (commerce_paypal)      7.x-2.3  7.x-2.3  Up to date                                         
+ Commerce Price Savings        7.x-1.4  7.x-1.4  Up to date                                         
+ Formatter                                                                                          
+ (commerce_price_savings_form                                                                       
+ atter)                                                                                             
+ Reports (commerce_reports)    7.x-4.0  7.x-4.0  Up to date                                         
+                               -beta1   -beta1                                                      
+ Commerce Stock API            7.x-2.1  7.x-2.1  Up to date                                         
+ (commerce_stock)                                                                                   
+ Commerce Webform              7.x-2.0  7.x-2.0  Up to date                                         
+ (commerce_webform)            -alpha3  -alpha3                                                     
+ Computed Field                7.x-1.0  7.x-1.0  Up to date                                         
+ (computed_field)                                                                                   
+ Conditional Fields            7.x-3.0  7.x-3.0  Up to date                                         
+ (conditional_fields)          -alpha1  -alpha1                                                     
+ Chaos tools (ctools)          7.x-1.7  7.x-1.7  Up to date                                         
+ Custom Username Validation    7.x-1.1  7.x-1.1  Up to date                                         
+ (custom_username_validation)                                                                       
+ Date (date)                   7.x-2.8  7.x-2.8  Up to date                                         
+ Commerce Cart Ajax            7.x-1.0  7.x-1.0  Up to date                                         
+ (dc_cart_ajax)                                                                                     
+ Devel (devel)                 7.x-1.5  7.x-1.5  Up to date                                         
+ Display Suite (ds)            7.x-2.7  7.x-2.7  Up to date                                         
+                               +27-dev  +27-dev                                                     
+ Email (email)                 7.x-1.3  7.x-1.3  Up to date                                         
+ Embedded Media Field          7.x-1.0  7.x-1.0  Up to date                                         
+ (emfield)                     -alpha2  -alpha2                                                     
+ Entity API (entity)           7.x-1.6  7.x-1.6  Up to date                                         
+ Entity to Text (entity2text)  7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha2  -alpha2                                                     
+ Entity Bundle Plugin          7.x-1.0  7.x-1.0  Up to date                                         
+ (entity_bundle_plugin)        -beta2   -beta2                                                      
+ Entity Rules (entity_rules)   7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha4  -alpha4                                                     
+ Entity view modes             7.x-1.0  7.x-1.0  Up to date                                         
+ (entity_view_mode)            -rc1     -rc1                                                        
+ Entityforms (entityform)      7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Entity Reference              7.x-1.1  7.x-1.1  Up to date                                         
+ (entityreference)                                                                                  
+ Entity reference prepopulate  7.x-1.5  7.x-1.5  Up to date                                         
+ (entityreference_prepopulate                                                                       
+ )                                                                                                  
+ Eva (eva)                     7.x-1.2  7.x-1.2  Up to date                                         
+ External Links (extlink)      7.x-1.1  7.x-1.1  Up to date                                         
+                               8        8                                                           
+ Facebook Rules                7.x-1.4  7.x-1.4  Up to date                                         
+ (facebook_rules)                                                                                   
+ fb social (fb_social)         7.x-2.0  7.x-2.0  Up to date                                         
+                               -beta4+  -beta4+                                                     
+                               4-dev    4-dev                                                       
+ Facebook OAuth (fboauth)      7.x-1.7  7.x-1.7  Up to date                                         
+ Features (features)           7.x-2.4  7.x-2.5  Update available                                   
+ Field default token           7.x-1.2  7.x-1.2  Up to date                                         
+ (field_default_token)         +6-dev   +6-dev                                                      
+ Field Group (field_group)     7.x-1.4  7.x-1.4  Up to date                                         
+ Field Validation              7.x-2.4  7.x-2.4  Up to date                                         
+ (field_validation)                                                                                 
+ Media (media)                 7.x-1.5  7.x-1.5  Up to date                                         
+ Fivestar (fivestar)           7.x-2.1  7.x-2.1  Up to date                                         
+ Flag (flag)                   7.x-3.6  7.x-3.6  Up to date                                         
+ Google Analytics              7.x-1.4  7.x-1.4  Up to date                                         
+ (google_analytics)                                                                                 
+ Image crop (imagefield_crop)  7.x-1.1  7.x-1.1  Up to date                                         
+ Image style flush             7.x-1.2  7.x-1.2  Up to date                                         
+ (imagestyleflush)                                                                                  
+ Inline Conditions             7.x-1.0  7.x-1.0  Up to date                                         
+ (inline_conditions)           -alpha4  -alpha4                                                     
+ Inline Entity Form            7.x-1.5  7.x-1.5  Up to date                                         
+ (inline_entity_form)                                                                               
+ Libraries (libraries)         7.x-2.2  7.x-2.2  Up to date                                         
+ Link (link)                   7.x-1.3  7.x-1.3  Up to date                                         
+ Location (location)           7.x-3.6  7.x-3.6  Up to date                                         
+ LoginToboggan                 7.x-1.4  7.x-1.4  Up to date                                         
+ (logintoboggan)                                                                                    
+ MailChimp (mailchimp)         7.x-3.2  7.x-3.2  Up to date                                         
+ Mail System (mailsystem)      7.x-3.0  7.x-3.0  Up to date                                         
+                               -alpha1  -alpha1                                                     
+                               +8-dev   +8-dev                                                      
+ Mandrill (mandrill)           7.x-2.1  7.x-2.1  Up to date                                         
+ Maxlength (maxlength)         7.x-3.2  7.x-3.2  Up to date                                         
+ Media: SoundCloud             7.x-1.0  7.x-1.0  Up to date                                         
+ (media_soundcloud)                                                                                 
+ Media: Vimeo (media_vimeo)    7.x-2.0  7.x-2.0  Up to date                                         
+ Media: YouTube                7.x-2.0  7.x-2.0  Up to date                                         
+ (media_youtube)               -rc5     -rc5                                                        
+ Metatag (metatag)             7.x-1.5  7.x-1.5  Up to date                                         
+                               -beta1   -beta1                                                      
+ Mime Mail (mimemail)          7.x-1.0  7.x-1.0  Up to date                                         
+                               -beta3   -beta3                                                      
+ Module filter                 7.x-2.0  7.x-2.0  Up to date                                         
+ (module_filter)                                                                                    
+ Mollom (mollom)               7.x-2.1  7.x-2.1  Up to date                                         
+                               3        3                                                           
+ Nice messages (nicemessages)  7.x-2.1  7.x-2.1  Up to date                                         
+ Node Limit (node_limit)       7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha5  -alpha5                                                     
+                               +4-dev   +4-dev                                                      
+ oauth                         7.x-3.2  7.x-3.2  Up to date                                         
+ On The Web (on_the_web)       7.x-1.5  7.x-1.5  Up to date                                         
+ Panels (panels)               7.x-3.5  7.x-3.5  Up to date                                         
+ Pathauto (pathauto)           7.x-1.2  7.x-1.2  Up to date                                         
+ Private messages              7.x-2.x  7.x-2.x  Up to date                                         
+ (privatemsg)                  -dev     -dev                                                        
+ Prepopulate (prepopulate)     7.x-2.0  7.x-2.0  Up to date                                         
+ Profile2 (profile2)           7.x-1.3  7.x-1.3  Up to date                                         
+ Quantcast (quantcast)         7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Redirect (redirect)           7.x-1.0  7.x-1.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Reg With Pic (reg_with_pic)   7.x-1.0  7.x-1.0  Up to date                                         
+ Role Expire (role_expire)     7.x-1.0  7.x-1.0  Up to date                                         
+                               -beta1+  -beta1+                                                     
+                               6-dev    6-dev                                                       
+ Rules (rules)                 7.x-2.9  7.x-2.9  Up to date                                         
+ Conditional Rules             7.x-1.0  7.x-1.0  Up to date                                         
+ (rules_conditional)           -beta2   -beta2                                                      
+ Rules switch user             7.x-1.x  7.x-1.x  Up to date                                         
+ (rules_switch_user)           -dev     -dev                                                        
+ Search 404 (search404)        7.x-1.3  7.x-1.3  Up to date                                         
+ ShareThis (sharethis)         7.x-2.1  7.x-2.1  Up to date                                         
+                               0        0                                                           
+ simplehtmldom API             7.x-1.1  7.x-1.1  Up to date                                         
+ (simplehtmldom)               2        2                                                           
+ Strongarm (strongarm)         7.x-2.0  7.x-2.0  Up to date                                         
+ Telephone (telephone)         7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha1  -alpha1                                                     
+ ThemeKey (themekey)           7.x-3.3  7.x-3.3  Up to date                                         
+ Token (token)                 7.x-1.6  7.x-1.6  Up to date                                         
+ Twilio (twilio)               7.x-1.1  7.x-1.1  Up to date                                         
+                               0        0                                                           
+ Twitter (twitter)             7.x-5.8  7.x-5.8  Up to date                                         
+ Views (views)                 7.x-3.1  7.x-3.1  Up to date                                         
+                               0        0                                                           
+ Views Bulk Operations         7.x-3.2  7.x-3.2  Up to date                                         
+ (views_bulk_operations)                                                                            
+ Views Data Export             7.x-3.0  7.x-3.0  Up to date                                         
+ (views_data_export)           -beta8   -beta8                                                      
+ Views Date Format SQL         7.x-3.1  7.x-3.1  Up to date                                         
+ (views_date_format_sql)                                                                            
+ Views megarow                 7.x-1.4  7.x-1.4  Up to date                                         
+ (views_megarow)                                                                                    
+ Views Responsive Grid         7.x-1.3  7.x-1.3  Up to date                                         
+ (views_responsive_grid)                                                                            
+ Views RSS (views_rss)         7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc4     -rc4                                                        
+ Voting Rules (voting_rules)   7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha1  -alpha1                                                     
+ Voting API (votingapi)        7.x-2.1  7.x-2.1  Up to date                                         
+                               2        2                                                           
+ Webform (webform)             7.x-4.7  7.x-4.7  Up to date                                         
+ Webform Reply-To              7.x-2.0  7.x-2.0  Up to date                                         
+ (webform_reply_to)                                                                                 
+ Webform Rules                 7.x-1.6  7.x-1.6  Up to date                                         
+ (webform_rules)                                                                                    
+ Webform Validation            7.x-1.9  7.x-1.9  Up to date                                         
+ (webform_validation)                                                                               
+ Workflow API (workflow)       7.x-2.5  7.x-2.5  Up to date                                         
+ AT Core (adaptivetheme)       7.x-3.2  7.x-3.2  Up to date                                         
+ Corolla (corolla)             7.x-3.0  7.x-3.0  Up to date                                         
+ Back To Top (back_to_top)     7.x-1.4  7.x-1.4  Up to date                                         
+ Browscap (browscap)           7.x-2.2  7.x-2.2  Up to date                                         
+ Cloud Files (cloud_files)     7.x-1.2  7.x-1.2  Up to date                                         
+ Commerce Checkout Redirect    7.x-2.0  7.x-2.0  Up to date                                         
+ (commerce_checkout_redirect)  -rc1     -rc1                                                        
+ Physical Product              7.x-1.x  7.x-1.x  Up to date                                         
+ (commerce_physical)           -dev     -dev                                                        
+ Shipping (commerce_shipping)  7.x-2.2  7.x-2.2  Up to date                                         
+ USPS (commerce_usps)          7.x-2.x  7.x-2.x  Up to date                                         
+                               -dev     -dev                                                        
+ Context (context)             7.x-3.6  7.x-3.6  Up to date                                         
+ Theme developer               7.x-1.x  7.x-1.x  Up to date                                         
+ (devel_themer)                -dev     -dev                                                        
+ Display Suite Extra Layouts   7.x-1.1  7.x-1.1  Up to date                                         
+ (ds_extra_layouts)                                                                                 
+ Feeds (feeds)                 7.x-2.0  7.x-2.0  Up to date                                         
+                               -alpha8  -alpha8                                                     
+ Goals (goals)                 7.x-1.3  7.x-1.3  Up to date                                         
+ Job Scheduler                 7.x-2.0  7.x-2.0  Up to date                                         
+ (job_scheduler)               -alpha3  -alpha3                                                     
+ jQuery Update                 7.x-2.5  7.x-2.5  Up to date                                         
+ (jquery_update)                                                                                    
+ Physical Fields (physical)    7.x-1.x  7.x-1.x  Up to date                                         
+                               -dev     -dev                                                        
+ User Referral 2 (referral)    7.x-1.0  7.x-1.0  Up to date                                         
+                               -beta4   -beta4                                                      
+ Registration (registration)   7.x-1.4  7.x-1.4  Up to date                                         
+ Registration Commerce         7.x-1.0  7.x-1.0  Up to date                                         
+ (registration_commerce)       -beta1   -beta1                                                      
+ Site Disclaimer               7.x-1.2  7.x-1.2  Up to date                                         
+ (site_disclaimer)                                                                                  
+ SMTP Authentication Support   7.x-1.2  7.x-1.2  Up to date                                         
+ (smtp)                                                                                             
+ Ultimate Cron                 7.x-2.0  7.x-2.0  Up to date                                         
+ (ultimate_cron)               -beta8   -beta8                                                      
+ Userpoints (userpoints)       7.x-1.0  7.x-1.0  Up to date                                         
+ Views Ticker (views_ticker)   7.x-2.0  7.x-2.0  Up to date                                         
+ Webform Countdown             7.x-1.0  7.x-1.0  Up to date                                         
+ (webform_countdown)           -beta5   -beta5                                                      
+ Webform Template              7.x-1.4  7.x-1.4  Up to date                                         
+ (webform_template)                                                                                 
+ Wysiwyg (wysiwyg)             7.x-2.2  7.x-2.2  Specified version not found                        
+ Wysiwyg Linebreaks            7.x-1.6  7.x-1.6  Up to date                                         
+ (wysiwyg_linebreaks)                                                                               
+
+
+
+No code updates available.                                                               [1;32;40m[1m[ok][0m
+Checking available update data ...                                                       [1;32;40m[1m[ok][0m
+Failed to check available update data for blog_post.                                     [1;32;40m[1m[ok][0m
+Failed to check available update data for King of the Mix.                               [1;32;40m[1m[ok][0m
+Failed to check available update data for Makingitmag Display Suite.                     [1;32;40m[1m[ok][0m
+Failed to check available update data for Makinitmag.                                    [1;32;40m[1m[ok][0m
+Failed to check available update data for MIM Press Update.                              [1;32;40m[1m[ok][0m
+Failed to check available update data for opportunity.                                   [1;32;40m[1m[ok][0m
+Failed to check available update data for Programs &amp; Services.                       [1;32;40m[1m[ok][0m
+Failed to check available update data for Purchase Form.                                 [1;32;40m[1m[ok][0m
+Failed to get available update data for 8 projects.                                      [31;40m[1m[error][0m
+Update information last refreshed: Tue, 04/14/2015 - 1:22pm
+
+Update status information on all installed and enabled Drupal projects:
+ Name                          Install  Propose  Status                                             
+                               ed       d                                                           
+                               version  version                                                     
+ Address Field (addressfield)  7.x-1.0  7.x-1.0  Up to date                                         
+ Administration menu           7.x-3.0  7.x-3.0  Up to date                                         
+ (admin_menu)                  -rc5     -rc5                                                        
+ Better Formats                7.x-1.0  7.x-1.0  Up to date                                         
+ (better_formats)              -beta1   -beta1                                                      
+ Drupal                        7.36     7.36     Up to date                                         
+ Charts (charts)               7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Node clone (node_clone)       7.x-1.0  7.x-1.0  Up to date                                         
+                               -rc2     -rc2                                                        
+ Commerce (commerce)           7.x-1.1  7.x-1.1  Up to date                                         
+                               1        1                                                           
+ Commerce Backoffice           7.x-1.4  7.x-1.4  Up to date                                         
+ (commerce_backoffice)                                                                              
+ Commerce Discount             7.x-1.0  7.x-1.0  Up to date                                         
+ (commerce_discount)           -alpha4  -alpha4                                                     
+ Commerce Google Analytics     7.x-1.1  7.x-1.1  Up to date                                         
+ (commerce_google_analytics)                                                                        
+ Commerce License              7.x-1.3  7.x-1.3  Up to date                                         
+ (commerce_license)                                                                                 
+ PayPal (commerce_paypal)      7.x-2.3  7.x-2.3  Up to date                                         
+ Commerce Price Savings        7.x-1.4  7.x-1.4  Up to date                                         
+ Formatter                                                                                          
+ (commerce_price_savings_form                                                                       
+ atter)                                                                                             
+ Reports (commerce_reports)    7.x-4.0  7.x-4.0  Up to date                                         
+                               -beta1   -beta1                                                      
+ Commerce Stock API            7.x-2.1  7.x-2.1  Up to date                                         
+ (commerce_stock)                                                                                   
+ Commerce Webform              7.x-2.0  7.x-2.0  Up to date                                         
+ (commerce_webform)            -alpha3  -alpha3                                                     
+ Computed Field                7.x-1.0  7.x-1.0  Up to date                                         
+ (computed_field)                                                                                   
+ Conditional Fields            7.x-3.0  7.x-3.0  Up to date                                         
+ (conditional_fields)          -alpha1  -alpha1                                                     
+ Chaos tools (ctools)          7.x-1.7  7.x-1.7  Up to date                                         
+ Custom Username Validation    7.x-1.1  7.x-1.1  Up to date                                         
+ (custom_username_validation)                                                                       
+ Date (date)                   7.x-2.8  7.x-2.8  Up to date                                         
+ Commerce Cart Ajax            7.x-1.0  7.x-1.0  Up to date                                         
+ (dc_cart_ajax)                                                                                     
+ Devel (devel)                 7.x-1.5  7.x-1.5  Up to date                                         
+ Display Suite (ds)            7.x-2.7  7.x-2.7  Up to date                                         
+                               +27-dev  +27-dev                                                     
+ Email (email)                 7.x-1.3  7.x-1.3  Up to date                                         
+ Embedded Media Field          7.x-1.0  7.x-1.0  Up to date                                         
+ (emfield)                     -alpha2  -alpha2                                                     
+ Entity API (entity)           7.x-1.6  7.x-1.6  Up to date                                         
+ Entity to Text (entity2text)  7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha2  -alpha2                                                     
+ Entity Bundle Plugin          7.x-1.0  7.x-1.0  Up to date                                         
+ (entity_bundle_plugin)        -beta2   -beta2                                                      
+ Entity Rules (entity_rules)   7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha4  -alpha4                                                     
+ Entity view modes             7.x-1.0  7.x-1.0  Up to date                                         
+ (entity_view_mode)            -rc1     -rc1                                                        
+ Entityforms (entityform)      7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Entity Reference              7.x-1.1  7.x-1.1  Up to date                                         
+ (entityreference)                                                                                  
+ Entity reference prepopulate  7.x-1.5  7.x-1.5  Up to date                                         
+ (entityreference_prepopulate                                                                       
+ )                                                                                                  
+ Eva (eva)                     7.x-1.2  7.x-1.2  Up to date                                         
+ External Links (extlink)      7.x-1.1  7.x-1.1  Up to date                                         
+                               8        8                                                           
+ Facebook Rules                7.x-1.4  7.x-1.4  Up to date                                         
+ (facebook_rules)                                                                                   
+ fb social (fb_social)         7.x-2.0  7.x-2.0  Up to date                                         
+                               -beta4+  -beta4+                                                     
+                               4-dev    4-dev                                                       
+ Facebook OAuth (fboauth)      7.x-1.7  7.x-1.7  Up to date                                         
+ Features (features)           7.x-2.4  7.x-2.5  Update available                                   
+ Field default token           7.x-1.2  7.x-1.2  Up to date                                         
+ (field_default_token)         +6-dev   +6-dev                                                      
+ Field Group (field_group)     7.x-1.4  7.x-1.4  Up to date                                         
+ Field Validation              7.x-2.4  7.x-2.4  Up to date                                         
+ (field_validation)                                                                                 
+ Media (media)                 7.x-1.5  7.x-1.5  Up to date                                         
+ Fivestar (fivestar)           7.x-2.1  7.x-2.1  Up to date                                         
+ Flag (flag)                   7.x-3.6  7.x-3.6  Up to date                                         
+ Google Analytics              7.x-1.4  7.x-1.4  Up to date                                         
+ (google_analytics)                                                                                 
+ Image crop (imagefield_crop)  7.x-1.1  7.x-1.1  Up to date                                         
+ Image style flush             7.x-1.2  7.x-1.2  Up to date                                         
+ (imagestyleflush)                                                                                  
+ Inline Conditions             7.x-1.0  7.x-1.0  Up to date                                         
+ (inline_conditions)           -alpha4  -alpha4                                                     
+ Inline Entity Form            7.x-1.5  7.x-1.5  Up to date                                         
+ (inline_entity_form)                                                                               
+ Libraries (libraries)         7.x-2.2  7.x-2.2  Up to date                                         
+ Link (link)                   7.x-1.3  7.x-1.3  Up to date                                         
+ Location (location)           7.x-3.6  7.x-3.6  Up to date                                         
+ LoginToboggan                 7.x-1.4  7.x-1.4  Up to date                                         
+ (logintoboggan)                                                                                    
+ MailChimp (mailchimp)         7.x-3.2  7.x-3.2  Up to date                                         
+ Mail System (mailsystem)      7.x-3.0  7.x-3.0  Up to date                                         
+                               -alpha1  -alpha1                                                     
+                               +8-dev   +8-dev                                                      
+ Mandrill (mandrill)           7.x-2.1  7.x-2.1  Up to date                                         
+ Maxlength (maxlength)         7.x-3.2  7.x-3.2  Up to date                                         
+ Media: SoundCloud             7.x-1.0  7.x-1.0  Up to date                                         
+ (media_soundcloud)                                                                                 
+ Media: Vimeo (media_vimeo)    7.x-2.0  7.x-2.0  Up to date                                         
+ Media: YouTube                7.x-2.0  7.x-2.0  Up to date                                         
+ (media_youtube)               -rc5     -rc5                                                        
+ Metatag (metatag)             7.x-1.5  7.x-1.5  Up to date                                         
+                               -beta1   -beta1                                                      
+ Mime Mail (mimemail)          7.x-1.0  7.x-1.0  Up to date                                         
+                               -beta3   -beta3                                                      
+ Module filter                 7.x-2.0  7.x-2.0  Up to date                                         
+ (module_filter)                                                                                    
+ Mollom (mollom)               7.x-2.1  7.x-2.1  Up to date                                         
+                               3        3                                                           
+ Nice messages (nicemessages)  7.x-2.1  7.x-2.1  Up to date                                         
+ Node Limit (node_limit)       7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha5  -alpha5                                                     
+                               +4-dev   +4-dev                                                      
+ oauth                         7.x-3.2  7.x-3.2  Up to date                                         
+ On The Web (on_the_web)       7.x-1.5  7.x-1.5  Up to date                                         
+ Panels (panels)               7.x-3.5  7.x-3.5  Up to date                                         
+ Pathauto (pathauto)           7.x-1.2  7.x-1.2  Up to date                                         
+ Private messages              7.x-2.x  7.x-2.x  Up to date                                         
+ (privatemsg)                  -dev     -dev                                                        
+ Prepopulate (prepopulate)     7.x-2.0  7.x-2.0  Up to date                                         
+ Profile2 (profile2)           7.x-1.3  7.x-1.3  Up to date                                         
+ Quantcast (quantcast)         7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Redirect (redirect)           7.x-1.0  7.x-1.0  Up to date                                         
+                               -rc1     -rc1                                                        
+ Reg With Pic (reg_with_pic)   7.x-1.0  7.x-1.0  Up to date                                         
+ Role Expire (role_expire)     7.x-1.0  7.x-1.0  Up to date                                         
+                               -beta1+  -beta1+                                                     
+                               6-dev    6-dev                                                       
+ Rules (rules)                 7.x-2.9  7.x-2.9  Up to date                                         
+ Conditional Rules             7.x-1.0  7.x-1.0  Up to date                                         
+ (rules_conditional)           -beta2   -beta2                                                      
+ Rules switch user             7.x-1.x  7.x-1.x  Up to date                                         
+ (rules_switch_user)           -dev     -dev                                                        
+ Search 404 (search404)        7.x-1.3  7.x-1.3  Up to date                                         
+ ShareThis (sharethis)         7.x-2.1  7.x-2.1  Up to date                                         
+                               0        0                                                           
+ simplehtmldom API             7.x-1.1  7.x-1.1  Up to date                                         
+ (simplehtmldom)               2        2                                                           
+ Strongarm (strongarm)         7.x-2.0  7.x-2.0  Up to date                                         
+ Telephone (telephone)         7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha1  -alpha1                                                     
+ ThemeKey (themekey)           7.x-3.3  7.x-3.3  Up to date                                         
+ Token (token)                 7.x-1.6  7.x-1.6  Up to date                                         
+ Twilio (twilio)               7.x-1.1  7.x-1.1  Up to date                                         
+                               0        0                                                           
+ Twitter (twitter)             7.x-5.8  7.x-5.8  Up to date                                         
+ Views (views)                 7.x-3.1  7.x-3.1  Up to date                                         
+                               0        0                                                           
+ Views Bulk Operations         7.x-3.2  7.x-3.2  Up to date                                         
+ (views_bulk_operations)                                                                            
+ Views Data Export             7.x-3.0  7.x-3.0  Up to date                                         
+ (views_data_export)           -beta8   -beta8                                                      
+ Views Date Format SQL         7.x-3.1  7.x-3.1  Up to date                                         
+ (views_date_format_sql)                                                                            
+ Views megarow                 7.x-1.4  7.x-1.4  Up to date                                         
+ (views_megarow)                                                                                    
+ Views Responsive Grid         7.x-1.3  7.x-1.3  Up to date                                         
+ (views_responsive_grid)                                                                            
+ Views RSS (views_rss)         7.x-2.0  7.x-2.0  Up to date                                         
+                               -rc4     -rc4                                                        
+ Voting Rules (voting_rules)   7.x-1.0  7.x-1.0  Up to date                                         
+                               -alpha1  -alpha1                                                     
+ Voting API (votingapi)        7.x-2.1  7.x-2.1  Up to date                                         
+                               2        2                                                           
+ Webform (webform)             7.x-4.7  7.x-4.7  Up to date                                         
+ Webform Reply-To              7.x-2.0  7.x-2.0  Up to date                                         
+ (webform_reply_to)                                                                                 
+ Webform Rules                 7.x-1.6  7.x-1.6  Up to date                                         
+ (webform_rules)                                                                                    
+ Webform Validation            7.x-1.9  7.x-1.9  Up to date                                         
+ (webform_validation)                                                                               
+ Workflow API (workflow)       7.x-2.5  7.x-2.5  Up to date                                         
+ AT Core (adaptivetheme)       7.x-3.2  7.x-3.2  Up to date                                         
+ Corolla (corolla)             7.x-3.0  7.x-3.0  Up to date                                         
+ Back To Top (back_to_top)     7.x-1.4  7.x-1.4  Up to date                                         
+ Browscap (browscap)           7.x-2.2  7.x-2.2  Up to date                                         
+ Cloud Files (cloud_files)     7.x-1.2  7.x-1.2  Up to date                                         
+ Commerce Checkout Redirect    7.x-2.0  7.x-2.0  Up to date                                         
+ (commerce_checkout_redirect)  -rc1     -rc1                                                        
+ Physical Product              7.x-1.x  7.x-1.x  Up to date                                         
+ (commerce_physical)           -dev     -dev                                                        
+ Shipping (commerce_shipping)  7.x-2.2  7.x-2.2  Up to date                                         
+ USPS (commerce_usps)          7.x-2.x  7.x-2.x  Up to date                                         
+                               -dev     -dev                                                        
+ Context (context)             7.x-3.6  7.x-3.6  Up to date                                         
+ Theme developer               7.x-1.x  7.x-1.x  Up to date                                         
+ (devel_themer)                -dev     -dev                                                        
+ Display Suite Extra Layouts   7.x-1.1  7.x-1.1  Up to date                                         
+ (ds_extra_layouts)                                                                                 
+ Feeds (feeds)                 7.x-2.0  7.x-2.0  Up to date                                         
+                               -alpha8  -alpha8                                                     
+ Goals (goals)                 7.x-1.3  7.x-1.3  Up to date                                         
+ Job Scheduler                 7.x-2.0  7.x-2.0  Up to date                                         
+ (job_scheduler)               -alpha3  -alpha3                                                     
+ jQuery Update                 7.x-2.5  7.x-2.5  Up to date                                         
+ (jquery_update)                                                                                    
+ Physical Fields (physical)    7.x-1.x  7.x-1.x  Up to date                                         
+                               -dev     -dev                                                        
+ User Referral 2 (referral)    7.x-1.0  7.x-1.0  Up to date                                         
+                               -beta4   -beta4                                                      
+ Registration (registration)   7.x-1.4  7.x-1.4  Up to date                                         
+ Registration Commerce         7.x-1.0  7.x-1.0  Up to date                                         
+ (registration_commerce)       -beta1   -beta1                                                      
+ Site Disclaimer               7.x-1.2  7.x-1.2  Up to date                                         
+ (site_disclaimer)                                                                                  
+ SMTP Authentication Support   7.x-1.2  7.x-1.2  Up to date                                         
+ (smtp)                                                                                             
+ Ultimate Cron                 7.x-2.0  7.x-2.0  Up to date                                         
+ (ultimate_cron)               -beta8   -beta8                                                      
+ Userpoints (userpoints)       7.x-1.0  7.x-1.0  Up to date                                         
+ Views Ticker (views_ticker)   7.x-2.0  7.x-2.0  Up to date                                         
+ Webform Countdown             7.x-1.0  7.x-1.0  Up to date                                         
+ (webform_countdown)           -beta5   -beta5                                                      
+ Webform Template              7.x-1.4  7.x-1.4  Up to date                                         
+ (webform_template)                                                                                 
+ Wysiwyg (wysiwyg)             7.x-2.2  7.x-2.x  Specified version available                        
+                                        -dev                                                        
+ Wysiwyg Linebreaks            7.x-1.6  7.x-1.6  Up to date                                         
+ (wysiwyg_linebreaks)                                                                               
+
+
+
+Code updates will be made to the following projects: Wysiwyg [wysiwyg-7.x-2.x-dev]
+
+Note: A backup of your project will be stored to backups directory if it is not managed by a supported version control system.
+Note: If you have made any modifications to any file that belongs to one of these projects, you will have to migrate those modifications after updating.
+Do you really want to continue with the update process? (y/n): Project wysiwyg was updated successfully. Installed version is now 7.x-2.x-dev.
+Backups were saved into the directory                                                    [1;32;40m[1m[ok][0m
+/home/sroy/drush-backups/sroy/20150414172320/modules/wysiwyg.
+'all' cache was cleared in /home/sroy/public_html#sroy                                   [1;32;40m[1m[success][0m
+The following updates are pending:
+
+wysiwyg module : 
+  7201 -   Update enabled font plugin buttons to default plugin in TinyMCE profiles. 
+  7202 -   Update internal names of settings. 
+
+Do you wish to run all pending updates? (y/n): y
+Performed update: wysiwyg_update_7201                                                    [1;32;40m[1m[ok][0m
+Performed update: wysiwyg_update_7202                                                    [1;32;40m[1m[ok][0m
+Finished performing updates.                                                             [1;32;40m[1m[ok][0m
+The following extensions will be enabled: wysiwyg
+Do you really want to continue? (y/n): wysiwyg was enabled successfully.                                                        [1;32;40m[1m[ok][0m
+The following extensions will be enabled: wysiwyg_linebreaks
+Do you really want to continue? (y/n): Do you really want to continue? (y/n): wysiwyg_linebreaks was enabled successfully.                                             [1;32;40m[1m[ok][0m
