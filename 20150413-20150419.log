@@ -808,3 +808,51 @@ Backups were saved into the directory                                           
 'all' cache was cleared in /home/sroy/public_html#sroy                                   [1;32;40m[1m[success][0m
 No database updates required                                                             [1;32;40m[1m[success][0m
 Finished performing updates.                                                             [1;32;40m[1m[ok][0m
+Subject: Cron <root@elbow> /etc/webmin/package-updates/update.pl
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20150404022202.28F0084953@elbow.makinitmag.com>
+Date: Fri,  3 Apr 2015 22:22:02 -0400 (EDT)
+
+Error: SMTP command  failed :
+Error
+-----
+SMTP command  failed :
+-----
+?  q
+Saved 1 message in /home/sroy/mbox
+Held 342 messages in /var/mail/sroy
+sroy@elbow:~$ ls
+BACKUPS         hardcopy.1  menu.sh          pantheon-helper-sync.sh     rsync.pantheon
+CUSTOM_MODULES  htaccess    mimsum           PATCHES                     settings.php
+drush-backups   log         MISC_FILES       public_html
+hardcopy.0      mbox        pantheon-helper  rsync-exclude-pantheon.txt
+You have new mail in /var/mail/sroy
+sroy@elbow:~$
+NAME
+
+  terminus
+
+DESCRIPTION
+
+  Manage Pantheon through the command-line.
+
+SYNOPSIS
+
+  terminus <command>
+
+SUBCOMMANDS
+
+  art                View Pantheon artwork
+  auth               Authenticate to Pantheon and store a local secret token.
+  cli                Get information about Terminus itself.
+  code               Commands specific to an environment
+  drush              Invoke `drush` commands on a Pantheon development site
+  help               Get help on a certain command.
+  organizations
+  products
+  site               actions on an individual site
+:
