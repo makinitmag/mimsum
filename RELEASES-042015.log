@@ -1,8 +1,10 @@
+#RELEASE INFO 21-Apr-2015 12:05 AM
+Updating Display Suite (security update)
+#RELEASE INFO 14-Apr-2015 05:02 PM
+-Upgraded Features and Display suite
+-Moved custom modules to module package categories MIM and MIM Content Types 
 #RELEASE INFO 14-Apr-2015 01:44 PM
 - Changing from TinyMCE to CKEditor 4 (better intergration with Drupal)
 - This release includes a merge from Pantheon.
 - Modules disabled and uninstalled: user badges and user default pictures
-#RELEASE INFO 14-Apr-2015 05:02 PM
--Upgraded Features and Display suite
--Moved custom modules to module package categories MIM and MIM Content Types 
 
