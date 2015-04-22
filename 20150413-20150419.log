@@ -856,3 +856,116 @@ SUBCOMMANDS
   products
   site               actions on an individual site
 :
+Apr 22 06:30:01 elbow CRON[3551]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 06:30:03 elbow postfix/pickup[26816]: 0AB8D84953: uid=1021 from=<sroy>
+Apr 22 06:30:03 elbow postfix/qmgr[1317]: 0AB8D84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 06:30:03 elbow postfix/local[3586]: 0AB8D84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.32, delays=0.17/0.12/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 07:10:01 elbow CRON[7294]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 07:10:09 elbow postfix/pickup[3713]: A23F284953: uid=1021 from=<sroy>
+Apr 22 07:10:09 elbow postfix/qmgr[1317]: A23F284953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 07:10:10 elbow postfix/local[7343]: A23F284953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.58, delays=0.35/0.19/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 07:30:01 elbow CRON[9293]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 07:30:03 elbow postfix/pickup[3713]: 5B67184953: uid=1021 from=<sroy>
+Apr 22 07:30:03 elbow postfix/qmgr[1317]: 5B67184953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 07:30:03 elbow postfix/local[9330]: 5B67184953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.34, delays=0.14/0.1/0/0.09, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 08:10:01 elbow CRON[13559]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 08:10:01 elbow postfix/pickup[13542]: A61B484953: uid=1021 from=<sroy>
+Apr 22 08:10:01 elbow postfix/qmgr[1317]: A61B484953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 08:10:01 elbow postfix/local[13595]: A61B484953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.18, delays=0.08/0.08/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 08:30:01 elbow CRON[16185]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 08:30:01 elbow postfix/pickup[13542]: A4DFA84953: uid=1021 from=<sroy>
+Apr 22 08:30:01 elbow postfix/qmgr[1317]: A4DFA84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 08:30:01 elbow postfix/local[16214]: A4DFA84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.1, delays=0.08/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 09:10:01 elbow CRON[20548]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 09:10:02 elbow postfix/pickup[13542]: 0114984953: uid=1021 from=<sroy>
+Apr 22 09:10:02 elbow postfix/qmgr[1317]: 0114984953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 09:10:02 elbow postfix/local[20583]: 0114984953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.15, delays=0.12/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 09:30:01 elbow CRON[22510]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 09:30:02 elbow postfix/pickup[13542]: 0E29884953: uid=1021 from=<sroy>
+Apr 22 09:30:02 elbow postfix/qmgr[1317]: 0E29884953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 09:30:02 elbow postfix/local[22536]: 0E29884953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.1, delays=0.07/0.02/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 10:10:01 elbow CRON[26250]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 10:10:02 elbow postfix/pickup[23927]: 75EFA84953: uid=1021 from=<sroy>
+Apr 22 10:10:02 elbow postfix/qmgr[1317]: 75EFA84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 10:10:02 elbow postfix/local[26287]: 75EFA84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.25, delays=0.17/0.02/0/0.05, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 10:30:01 elbow CRON[28197]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 10:30:01 elbow postfix/pickup[23927]: 851C384953: uid=1021 from=<sroy>
+Apr 22 10:30:01 elbow postfix/qmgr[1317]: 851C384953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 10:30:01 elbow postfix/local[28220]: 851C384953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.05, delays=0.02/0.01/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 11:10:01 elbow CRON[31874]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 11:10:02 elbow postfix/pickup[23927]: 61F7884953: uid=1021 from=<sroy>
+Apr 22 11:10:02 elbow postfix/qmgr[1317]: 61F7884953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 11:10:02 elbow postfix/local[31909]: 61F7884953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.09, delays=0.06/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 11:30:01 elbow CRON[1286]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 11:30:01 elbow postfix/pickup[328]: E1EB484953: uid=1021 from=<sroy>
+Apr 22 11:30:01 elbow postfix/qmgr[1317]: E1EB484953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 11:30:02 elbow postfix/local[1325]: E1EB484953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.11, delays=0.08/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 12:10:01 elbow CRON[4979]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 12:10:02 elbow postfix/pickup[328]: 41DAB84953: uid=1021 from=<sroy>
+Apr 22 12:10:02 elbow postfix/qmgr[1317]: 41DAB84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 12:10:02 elbow postfix/local[5051]: 41DAB84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.11, delays=0.08/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 12:30:01 elbow CRON[6897]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 12:30:02 elbow postfix/pickup[328]: 861AF84953: uid=1021 from=<sroy>
+Apr 22 12:30:02 elbow postfix/qmgr[1317]: 861AF84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 12:30:02 elbow postfix/local[6932]: 861AF84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.21, delays=0.13/0.08/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 13:10:01 elbow CRON[10692]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 13:10:01 elbow postfix/pickup[9537]: 8836B84953: uid=1021 from=<sroy>
+Apr 22 13:10:01 elbow postfix/qmgr[1317]: 8836B84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 13:10:01 elbow postfix/local[10729]: 8836B84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.11, delays=0.09/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 13:30:01 elbow CRON[12663]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 13:30:02 elbow postfix/pickup[9537]: A86D584953: uid=1021 from=<sroy>
+Apr 22 13:30:02 elbow postfix/qmgr[1317]: A86D584953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 13:30:03 elbow postfix/local[12717]: A86D584953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.46, delays=0.19/0.19/0/0.08, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 14:10:01 elbow CRON[16377]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 14:10:01 elbow postfix/pickup[9537]: 7E21E84953: uid=1021 from=<sroy>
+Apr 22 14:10:01 elbow postfix/qmgr[1317]: 7E21E84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 14:10:01 elbow postfix/local[16406]: 7E21E84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.1, delays=0.07/0.01/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 14:30:01 elbow CRON[18208]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 14:30:01 elbow postfix/pickup[9537]: D374984953: uid=1021 from=<sroy>
+Apr 22 14:30:01 elbow postfix/qmgr[1317]: D374984953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 14:30:01 elbow postfix/local[18247]: D374984953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.13, delays=0.1/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 15:10:01 elbow CRON[22026]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 15:10:02 elbow postfix/pickup[18614]: 08C6484953: uid=1021 from=<sroy>
+Apr 22 15:10:02 elbow postfix/qmgr[1317]: 08C6484953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 15:10:02 elbow postfix/local[22063]: 08C6484953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.34, delays=0.32/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 15:30:01 elbow CRON[23835]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 15:30:02 elbow postfix/pickup[18614]: 6C30A84953: uid=1021 from=<sroy>
+Apr 22 15:30:02 elbow postfix/qmgr[1317]: 6C30A84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 15:30:02 elbow postfix/local[23870]: 6C30A84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.15, delays=0.11/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 16:10:01 elbow CRON[27611]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 16:10:02 elbow postfix/pickup[18614]: 022BA84953: uid=1021 from=<sroy>
+Apr 22 16:10:02 elbow postfix/qmgr[1317]: 022BA84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 16:10:02 elbow postfix/local[27645]: 022BA84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.09, delays=0.06/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 16:30:01 elbow CRON[29394]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 16:30:01 elbow postfix/pickup[27718]: AECBC84953: uid=1021 from=<sroy>
+Apr 22 16:30:01 elbow postfix/qmgr[1317]: AECBC84953: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 16:30:01 elbow postfix/local[29428]: AECBC84953: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.09, delays=0.06/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 17:10:01 elbow CRON[1242]: (sroy) CMD (/usr/bin/env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin COLUMNS=72 /usr/bin/drush --root=/home/sroy/public_html --uri=sroy.makinitmag.com --quiet cron)
+Apr 22 17:10:02 elbow postfix/pickup[27718]: A658584952: uid=1021 from=<sroy>
+Apr 22 17:10:02 elbow postfix/qmgr[1317]: A658584952: from=<sroy@elbow.makinitmag.com>, size=2246, nrcpt=1 (queue active)
+Apr 22 17:10:02 elbow postfix/local[1274]: A658584952: to=<sroy@elbow.makinitmag.com>, orig_to=<sroy>, relay=local, delay=0.5, delays=0.31/0.11/0/0.07, dsn=2.0.0, status=sent (delivered to mailbox)
+Apr 22 17:15:43 elbow sroy: Now using logger
+Apr 22 17:16:58 elbow sroy: Subject: Cron <root@elbow> /etc/webmin/package-updates/update.pl
+Apr 22 17:16:58 elbow sroy: Content-Type: text/plain; charset=ANSI_X3.4-1968
+Apr 22 17:16:58 elbow sroy: X-Cron-Env: <SHELL=/bin/sh>
+Apr 22 17:16:58 elbow sroy: X-Cron-Env: <HOME=/root>
+Apr 22 17:16:58 elbow sroy: X-Cron-Env: <PATH=/usr/bin:/bin>
+Apr 22 17:16:58 elbow sroy: X-Cron-Env: <LOGNAME=root>
+Apr 22 17:16:58 elbow sroy: Message-Id: <20150404022202.28F0084953@elbow.makinitmag.com>
+Apr 22 17:16:58 elbow sroy: Date: Fri,  3 Apr 2015 22:22:02 -0400 (EDT)
+Apr 22 17:16:58 elbow sroy: 
+Apr 22 17:16:58 elbow sroy: Error: SMTP command  failed :
+Apr 22 17:16:58 elbow sroy: Error
+Apr 22 17:16:58 elbow sroy: -----
+Apr 22 17:16:58 elbow sroy: SMTP command  failed :
+Apr 22 17:16:58 elbow sroy: -----
+Apr 22 17:16:58 elbow sroy: ?  q
+Apr 22 17:16:58 elbow sroy: Saved 1 message in /home/sroy/mbox
+Apr 22 17:16:58 elbow sroy: Held 342 messages in /var/mail/sroy
+Apr 22 17:16:58 elbow sroy: sroy@elbow:~$ ls
+Apr 22 17:16:58 elbow sroy: BACKUPS         hardcopy.1  menu.sh          pantheon-helper-sync.sh     rsync.pantheon
+Apr 22 17:16:58 elbow sroy: CUSTOM_MODULES  htaccess    mimsum           PATCHES                     settings.php
+Apr 22 17:16:58 elbow sroy: drush-backups   log         MISC_FILES       public_html
+Apr 22 17:16:58 elbow sroy: hardcopy.0      mbox        pantheon-helper  rsync-exclude-pantheon.txt
+Apr 22 17:16:58 elbow sroy: You have new mail in /var/mail/sroy
+Apr 22 17:16:58 elbow sroy: sroy@elbow:~$
